@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; text-align: center; }
+        img { max-width: 300px; display: block; margin: 10px auto; }
+        #favoritesContainer div { display: inline-block; margin: 5px; text-align: center; }
+        #favoritesContainer img { width: 100px; }
+        .deleteButton { display: block; margin-top: 5px; }
