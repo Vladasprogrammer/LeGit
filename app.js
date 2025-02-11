@@ -1,4 +1,5 @@
 function getRandomCat() {
+
     fetch("https://cataas.com/cat?json=true")
         .then(response => response.json())
         .then(data => {

@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <title>Cat Explorer</title>
+    <title>Kačių tyrinėtojas</title>
 </head>
+
 <body>
-    <h1>Cat Explorer 🐱</h1>
-    
-    <button id="randomCatButton">Get Random Cat</button>
-    <br>
-    <input type="text" id="searchInput" placeholder="Enter tag (e.g., cute, funny)">
-    <button id="searchButton">Search Cat</button>
-    <br>
-    <img id="catImage" src="" alt="Random Cat">
-    <br>
-    <button id="saveFavoriteButton">Save to Favorites</button>
-    
-    <h2>Favorites</h2>
+    <h1>Katiniku Pasaulis</h1>
+    <div>
+        <button id="randomCatButton" class="button-53" role="button">Gauti atsitiktini katinuka</button>
+        <img id="catImage" src="" alt="Random Cat">
+    </div>
+    <div>
+        <input class="input" name="text" placeholder="Search..." type="search">
+        <button id="searchButton" class="button-53" role="button">Ieškoti</button>
+    </div>
+    <div>
+        <button id="saveFavoriteButton" class="button-53" role="button">Išsaugoti</button>
+    </div>
+
+    <h2>Mano Katinukai</h2>
     <div id="favoritesContainer"></div>
 </body>
+
 </html>
